@@ -261,23 +261,3 @@ pcbs:
           ref: [thumbfan_index_thome]
         adjust:
           shift: [0.5kx, -0.2ky]
-# cases:
-#   bottom:
-#     - name: pcb_edge
-#       extrude: 3
-#   _holes:
-#     - name: screwhole
-#       extrude: 4
-#   _standoffs:
-#     - name: mounting
-#       extrude: 4
-#   case:
-#     - what: case
-#       name: _standoffs
-#       operation: add
-#     - what: case
-#       name: _holes
-#       operation: subtract
-#     - what: case
-#       name: bottom
-#       operation: add
